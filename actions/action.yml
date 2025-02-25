@@ -7,7 +7,6 @@ outputs:
 runs:
   using: 'composite'
   steps:
-    steps:
       - name: Cache dependencies
         id: cache
         uses: actions/cache@v4
